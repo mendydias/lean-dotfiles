@@ -331,5 +331,6 @@ xorg-xkill
 xorg-xrandr
 xorg-xwayland
 xwayland-satellite
+yazi
 zen-browser-bin
 zip
