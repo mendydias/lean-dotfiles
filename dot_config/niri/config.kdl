@@ -86,10 +86,10 @@ binds {
     MOD+CTRL+DOWN                       { move-window-down; }
     MOD+CTRL+J                          { move-window-down; }
 
-    MOD+SHIFT+6                            { focus-column-first; }
-    MOD+SHIFT+4                             { focus-column-last; }
-    MOD+SHIFT+CTRL+6                       { move-column-to-first; }
-    MOD+SHIFT+CTRL+4                        { move-column-to-last; }
+    MOD+SHIFT+6                         { focus-column-first; }
+    MOD+SHIFT+4                         { focus-column-last; }
+    MOD+SHIFT+CTRL+6                    { move-column-to-first; }
+    MOD+SHIFT+CTRL+4                    { move-column-to-last; }
 
     MOD+SHIFT+LEFT                      { focus-monitor-left; }
     MOD+SHIFT+RIGHT                     { focus-monitor-right; }
@@ -145,7 +145,7 @@ binds {
     MOD+G                               { toggle-column-tabbed-display; }
     MOD+W                               { switch-preset-column-width; }
     MOD+SHIFT+W                         { switch-preset-window-height; }
-    MOD+CTRL+W                         { reset-window-height; }
+    MOD+CTRL+W                          { reset-window-height; }
     MOD+SHIFT+G                         { consume-window-into-column; }
     MOD+CTRL+G                          { expel-window-from-column; }
     MOD+WHEELSCROLLUP                   { focus-window-up; }
